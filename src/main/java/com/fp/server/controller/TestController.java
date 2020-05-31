@@ -15,7 +15,7 @@ public class TestController {
     @GetMapping(value = "/first-test")
     public String testContro(@RequestParam String test){
     System.out.print("my first test:"+test);
-        return test;
+    return test;
     }
 
 }
